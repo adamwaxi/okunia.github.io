@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Mirrored from hacro.fr/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Feb 2022 20:56:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Serveur Minecraft 1.8.8-1.12">
+    <meta name="theme-color" content="#3490DC">
+    <meta name="author" content="Azuriom">
+
+    <meta property="og:title" content="Accueil">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="index.html">
+    <meta property="og:image" content="logo okunia.png">
+    <meta property="og:description" content="Serveur Minecraft 1.8.8-1.12">
+    <meta property="og:site_name" content="HacroNetwork">
+        <meta name="keywords" content="hacro, hacronetwork, minecraft, faction, pvpfaction, pvp/faction, 1.8, 1.16">
+
+    <!-- CSRF Token -->
+
+    <title>Accueil | Okunia</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="logo okunia.png">
+
+    <!-- Scripts -->
+    <script src="assets/vendor/jquery/jquery.min.js" defer></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <script src="assets/vendor/axios/axios.min.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+    <script src="assets/themes/volcano/js/navigation.js" defer></script>
+
+    <!-- Page level scripts -->
+    
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="http://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&amp;display=swap" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/themes/volcano/css/stylee166.css?v=1.0.4" rel="stylesheet">
+    </head>
+
+<body>
+<div id="app">
+    <header>
+        <div class="header-nav " id="header" style="background-position: 0px;background: url('storage/img/fr-minecraft_wallpaper_CYZW.png') top / cover no-repeat">
+    <div class="header-nav-top navigation">
+        <div class="container navigation-content">
+            <ul class="header-nav-top-left">
+                                                                                        <li class="item  active ">
+                                <a href="index.html" >Accueil</a>
+                            </li>
+                                                                                                                                    <li class="item ">
+                                <a href="vote.html" >Vote</a>
+                            </li>
+                                                                                                            </ul>
+            <ul class="header-nav-top-mid">
+                <li class="item">
+                                            <img src="storage/img/logo okunia.png" alt="Logo">
+                                    </li>
+            </ul>
+            <ul class="header-nav-top-right">
+                                                                                                                                                                <li class="item ">
+                                <a href="shop.html" >Boutique</a>
+                            </li>
+                                                                        </ul>
+        </div>
+    </div>
+
+    <div class="header-nav-bottom sub-navigation">
+        <div class="container">
+            <ul class="header-nav-bottom-left">
+                <li class="item">
+                    <div class="ip">
+                        <p>play.Okunia.fr</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="header-nav-bottom-right">
+                                    <li class="item">
+                        <a href="user/login.html">
+                            Connexion
+                        </a>
+                    </li>
+                                            <li class="item">
+                            <a href="user/register.html">
+                                Inscription
+                            </a>
+                        </li>
+                                                </ul>
+        </div>
+    </div>
+
+    <div class="header-content">
+        <div class="description">
+            <h1>Okunia</h1>
+            <p>Serveur PvP-Faction Farm2Win</p>
+        </div>
+        <div class="go-to-button" id="go-to-bottom">
+            <span><i class="fas fa-angle-double-down"></i></span>
+        </div>
+    </div>
+</div>
+
+<div class="header-mobile-nav">
+    <div class="mobile-btn" id="mobile-btn">
+        <span id="nav-btn-icon"><i class="fas fa-bars"></i></span>
+    </div>
+
+    <ul class="mobile-navigation" id="mobile-nav">
+                                    <li class="item  active ">
+                    <a href="index.html" >
+                        <span class="name">Accueil</span>
+                    </a>
+                </li>
+                                                <li class="item ">
+                    <a href="vote.html" >
+                        <span class="name">Vote</span>
+                    </a>
+                </li>
+                                                <li class="item ">
+                    <a href="shop.html" >
+                        <span class="name">Boutique</span>
+                    </a>
+                </li>
+                                        <li class="item">
+                <a href="user/login.html">
+                    <span class="name">Connexion</span>
+                </a>
+            </li>
+
+                            <li class="item">
+                    <a href="user/register.html">
+                        <span class="name">Inscription</span>
+                    </a>
+                </li>
+                        </ul>
+</div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="status-message"></div>
+        </div>
+
+        <div id="go-to-bottom-div">
+                <div class="container">
+        <div class="page-container">
+            <div class="page-container-content">
+                <h1 class="page-container-title">Actualités</h1>
+                <div class="posts">
+                                    </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="top-footer">
+        <div class="top-footer-content">
+            <div class="container">
+                <div class="about">
+                    <div class="content">
+                        <h3 class="footer-title">Okunia</h3>
+                        <p> Okunia un serveur pvp faction Vanilla de la 1.8 jusqu'a la 1.12 farm2win ! Profitez d'un serveur sur lequel les bugs sont inexitable d'une moderation exquis le serveur vous attend juste vous !</p>
+                    </div>
+                </div>
+
+                <div class="socials">
+                    <div class="social-links">
+                                                                                    <a href="#" target="_blank">
+                                                                        </div>
+                </div>
+
+                <div class="links">
+                    <div class="content">
+                        <h3 class="footer-title">Liens</h3>
+                                                    <a href="https://www.youtube.com/channel/UC2s5T8ZTnlTBAVFiv7Hi5WA">[Owner]Adam_waxi</a>
+                                                    <a href="https://www.youtube.com/channel/UC2s5T8ZTnlTBAVFiv7Hi5WA">[Owner]Adam_waxi</a>
+                                                    <a href="https://www.youtube.com/channel/UC2s5T8ZTnlTBAVFiv7Hi5WA">[Owner]Adam_waxi</a>
+                                            </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            Copyright © 2022 Okunia - Tous droits réservés. | Propulsé par <a href="https://azuriom.com/" target="_blank" rel="noopener noreferrer">Azuriom</a>.            <p style="margin-top: 10px;font-size: 10px;">
+                <a class="mention" href="https://twitter.com/Captain34_dev" target="_blank">
+                    Designed with <i style="color: orangered;" class="fas fa-heart"></i> by Captain34 & Sloyni
+                </a>
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+
+<!-- Mirrored from hacro.fr/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Feb 2022 20:56:13 GMT -->
+</html>
